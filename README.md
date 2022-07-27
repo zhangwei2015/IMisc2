@@ -28,6 +28,7 @@ The format of -id/-ic: two columns: <path of clone files> <sample name>. e.g. /h
 
 
 2. After running the IMisc.pl program, *.sh would be generated, then running the *.sh as follows:
+
         1)sh Step1_identify_specific_clones.sh
         2)sh Crossvalidation_shell/Total_crossvalidation.sh or sh Crossvalidation_shell/step1*.sh and then sh step2.sh
                 this step is to do the leave-one-out cross-validation, and would require long time. If you don't need the result of this, just skip it and run the next *.sh
