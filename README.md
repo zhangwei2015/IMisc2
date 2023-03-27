@@ -22,8 +22,8 @@ perl IMisc.pl   -id -ic -o -R [parameters]
 
 Note
            
-The format of -id/-ic: two columns: <path of clone files> <sample name>. e.g. /home/zw/S1_CDR3_AA.frequency.clones.gz S1
-        <path of clone files>: three columns, <clone> <reads_num> <frequency>. e.g. CASRNRGGNTEAFF_TRBV19_TRBJ1-1   10050   1.07618
+perl IMisc.pl -id -ic -o -R. -id and -ic are the compulsory input files. The input files contain the path of clone files. The file contained two columns: .. e.g. /home/zw/S1_CDR3_AA.frequency.clones.gz S1 .
+for the clone file, it contains three columns: <clone seq: could be CDR3, or CDR3_Vgene/family_Jgene><reads_num>. . e.g. CASRNRGGNTEAFF_TRBV19_TRBJ1-1 10050 1.07618
 
 
 2. After running the IMisc.pl program, *.sh would be generated, then running the *.sh as follows:
