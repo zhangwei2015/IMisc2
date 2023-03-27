@@ -21,8 +21,7 @@ perl IMisc.pl   -id -ic -o -R [parameters]
             -R      <S> directory of Rscript [.../bin/R/R-3.4.1/bin/Rscript]
 
 Note
-            1. If the sequence including C region, the compulsory parameters: -i -o -n -p -R
-
+           
 The format of -id/-ic: two columns: <path of clone files> <sample name>. e.g. /home/zw/S1_CDR3_AA.frequency.clones.gz S1
         <path of clone files>: three columns, <clone> <reads_num> <frequency>. e.g. CASRNRGGNTEAFF_TRBV19_TRBJ1-1   10050   1.07618
 
