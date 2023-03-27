@@ -4,7 +4,7 @@ IMisc2: Identifing the disease associated clones, classifing two groups using th
 Version: V2.0.0
 
 1. Usage:
-perl IMisc.pl   -i -o -n -p -R [parameters]
+perl IMisc.pl   -id -ic -o -R [parameters]
 
             -id      <S> input clone files of disease samples' list
             -ic      <S> input clone files of control samples' list
